@@ -5,7 +5,8 @@ def menu():
     print("1. Random quote")
     print("2. All quotes")
     print("3. Exit")
-
+    print("4. Add quote")
+    
 def main():
     while True:
         quotes = load_quotes("quotes.txt")
