@@ -22,7 +22,7 @@ def main():
             print("Good bye...")
             break
         elif choice == "4":
-            add_quotes(quotes, filename)
+            add_quote(quotes, filename)
             
         else:
             print("Invalid input")
