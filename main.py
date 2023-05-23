@@ -24,8 +24,11 @@ def main():
         elif choice == "exit":
             print("Good bye...")
             break
+        elif choice == "4":
+            add_quote(quotes, filename="quotes.txt")
         else:
             print("Invalid input")
+
 
 if __name__ == "__main__":
     main()
