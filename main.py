@@ -21,7 +21,7 @@ def main():
              display_quotes(quotes, count)
         elif choice == "3":
             print("Good bye...")
-        break
+            break
     else:
          print("Invalid input")
 
