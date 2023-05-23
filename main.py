@@ -20,8 +20,12 @@ def main():
         elif choice == "3":
             print("Good bye...")
             break
-        else:
+        elif choice == "4":
+            add_quotes(quotes, filename)
+            
+        else
             print("Invalid input")
+
 
 if __name__ == "__main__":
     main()
