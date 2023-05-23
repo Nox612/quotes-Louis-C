@@ -23,7 +23,7 @@ def main():
         elif choice == "4":
             add_quotes(quotes, filename)
             
-        else
+        else:
             print("Invalid input")
 
 
